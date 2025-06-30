@@ -1,0 +1,5 @@
+system_data.csv
+gui/__pycache__/main_window.cpython-310.pyc
+daq/__pycache__/temperature.cpython-310.pyc
+run.sh.txt
+system_monitor.log

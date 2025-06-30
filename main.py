@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
 """
-Simple System Monitor - Main Entry Point
-Demonstrates DAQ, DCS principles, and GUI development
+DiagnoSYS: A simple Data Acquisition Tool
+Author: Lois Fernández Miguez
 """
 
 import sys

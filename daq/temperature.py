@@ -1,6 +1,6 @@
 """
 Temperature Data Acquisition Module
-Collects system temperature data for monitoring
+Collects system temperature data for system monitoring
 """
 
 import psutil
@@ -33,6 +33,8 @@ class TemperatureMonitor:
             
         except Exception as e:
             print(f"Error reading temperature data: {e}")
+            print(f"Temperature acquisition is only available for LINUX systems")
+            print(f" ")
             return self._simulate_temperature()
     
     def _simulate_temperature(self):

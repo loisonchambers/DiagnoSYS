@@ -17,7 +17,7 @@ class SystemMonitorGUI:
     
     def __init__(self, root):
         self.root = root
-        self.root.title("System Monitor - DAQ & DCS Demo")
+        self.root.title("DiagnoSYS v1.1")
         self.root.geometry("600x500")
         
         # Initialize components
